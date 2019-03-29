@@ -1,0 +1,138 @@
+Exercise 3
+
+1.Newton Second Law
+
+menghitung gaya yang dihasilkan dengan rumus Newton
+
+Algortima
+
+1.Mulai
+2.Cari tahu masaBenda
+3.Cari tahu percepatanBenda
+4.Sudah ditemukan massaBenda 600kg
+5.Sudah ditemukan percepatanBenda 2m/s2
+6.Temukan resultanGaya dengan mengkalikan massaBenda dengan percepatanBenda
+7.Tampilkan resultanGaya
+8.Selesai
+
+
+Pseudocode
+
+START
+STORE mass_of_object to 600kg
+STORE accelereation_of_object to 2m/s2
+
+CALCULATE mass_of_object times accelereation_of_object 
+SET resultantForce with CALCULATION result
+
+DISPLAY resultantForce
+END
+
+==============================================================================
+2.Tahun Kabisat
+
+Menentukan tahun kabisat
+
+-Algoritma
+1.Mulai
+2.Masukan tahun
+3.Jika tahun habis dibagi 4 
+	maka tampilkan tahunKabisat
+4.Jika tahun habis dibagi 100 
+	maka tampilkan bukan_tahunKabisat
+5.Jika tahun habis dibagi 400 
+	maka tampilkan tahunKabisat
+6.Jika tidak habis dibagi 4, tidak habis dibagi 100, tidak habis dibagi 400
+	maka tampilkan bukan_tahunKabisat
+6.Selesai
+
+
+-Pseudocode
+
+START
+SET year
+INPUT year
+
+IF year modulo 4 is 0
+	THEN its_leapYear
+
+ELSE IF year modulo 100 is 0
+	THEN not_leapYear
+
+ELSE IF year modulo 400 is 0
+	THEN its_leapYear
+ELSE
+	THEN not_leapYear
+ENDIF
+
+==============================================================================
+3.Lundry Day
+
+Membantu Foxie menghitung jumlah pakaian yang akan dimasukan kedalam
+mesin cuci.
+
+-Algoritma
+1.Mulai
+2.Siapkan pakaian yang akan dicuci
+3.Siapkan mesin cuci
+4.Ambil satu pakaian
+5.Masukan pakaian kedalam mesin cuci
+6.Bila jumlah pakaian belum mencapai 20 buah di dalam mesin cuci 
+   maka ulangi langkah ke 4 sampai ke 5
+7.Bila pakaian sudah berjumlah 20 buah di dalam mesin cuci
+   maka nyalakan mesin cuci
+8.Setelah selesai matikan mesin cuci
+9.Selesai
+
+-Pseudocode
+
+START
+STORE clothes_on_washingMachine with 0
+
+WHILE clothes_on_washingMachine <20
+ADD clothes_on_washingMachine by 1
+
+DISPLAY "Turn on The Washing Machine"
+
+END
+
+
+==============================================================================
+
+4.Periksa Kuku
+
+-Algoritma
+1.Mulai
+2.Kumpulkan Murid di dalam kelas
+3.Keliling dan periksa kuku mereka
+4.Jika kuku panjang maka hukum
+5.Jika kuku pendek maka puji
+6.Selesai
+
+
+pseudocode
+
+START
+STORE "student" with value 1
+
+WHILE sutdents < 40
+	DISPLAY Student no "student"
+	ADD students by 1
+	DISPLAY pertnyaan?
+	SET "longNail" with value Yes or No
+	
+	IF "student" have "longNail" 
+	DISPLAY punish student!
+	ELSE
+	DISPLAY praise student.	
+
+
+
+
+
+
+
+
+
+
+
